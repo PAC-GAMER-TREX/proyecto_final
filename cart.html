@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <title>CARRITO DE COMPRAS</title>
+    <!-- <link rel="icon" href="favicon.ico" type="image/x-icon" /> -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/mdb.min.css" />
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <div
+    class="col-md-4 d-flex justify-content-center justify-content-md-end align-items-center"
+  >
+    <div class="dropdown-item">
+      <!-- Cart -->
+      <a class="text-reset me-3" href="index.html" >
+        <span><i class="">volver a la página principal</i></span>
+        <span
+          id="LabelCounterCart"
+          class="badge rounded-pill badge-notification bg-danger"
+        ></span>
+      </a>
+
+    </div>
+  </div>
+  </head>
+
+  <body>
+    <header id="Header"></header>
+
+    <main class="mb-6">
+      <div class="p-3 text-primary text-center bg-black">
+        <h1 class="mb-0 h1">LISTA DE COMPRAS</h1>
+      </div>
+
+      <div class="container mt-5">
+        <section class="">
+          <div class="row gx-lg-5">
+            <div class="col-lg-8 mb-4 mb-md-0">
+              <section id="ContainerProductsCart" class="mb-5"></section>
+
+              <section class="">
+                <div class="mb-5">
+                  <p class="text-primary">
+                    <i class="fas fa-shopping-cart mr-1"></i> No compres a ultima hora.
+                  </p>
+                </div>
+
+                <div class="mb-5">
+                  <h5 class="mb-4">Entrega programada para el: </h5>
+                  <p class="mb-0"><script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+                    <input type="date" id="fech" value="2022-10-02"></p>
+                </div>
+
+                
+              </section>
+            </div>
+
+            <div class="col-lg-4 mb-4 mb-md-0">
+              <section class="shadow-4 p-4 rounded-5 mb-4">
+                <h5 class="mb-5"><center>MONTO TOTAL A PAGAR</center></h5>
+
+                <div class="d-flex justify-content-between mb-3">
+                  <span>SUB TOTAL</span>
+                  <span id="TotalAmount">0 Bs.</span>
+                </div>
+                <div class="d-flex justify-content-between">
+                  
+                  
+                </div>
+                <hr class="my-4" />
+                <div class="d-flex justify-content-between fw-bold mb-5">
+                  <span><center>SOLO ENTREGAS SIN RECARGO DENTRO DE LA CIRCUNVALACIÓN.</center></span>
+                  
+                </div>
+
+                <button
+                  id="BtnPay"
+                  type="button"
+                  class="btn btn-primary btn-rounded w-100"
+                >
+                  PAGAR
+                </button>
+              </section>
+
+              
+            </div>
+          </div>
+        </section>
+      </div>
+    </main>
+
+     </body>
+
+  <script type="text/javascript" src="js/mdb.min.js"></script>
+
+  <script type="text/javascript" src="js/all.min.js"></script>
+
+  <script type="text/javascript" src="js/scripts/heritage.js"></script>
+
+  <script type="text/javascript" src="js/scripts/indexdb.js"></script>
+
+  <script type="text/javascript" src="js/scripts/cart.js"></script>
+</html>

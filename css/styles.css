@@ -1,0 +1,14 @@
+html,
+body {
+    font-family: 'Work Sans', sans-serif !important;
+}
+
+.hola {
+    padding-top: 7rem !important;
+}
+
+.header-top {
+    position: fixed;
+    width: 100%;
+    z-index: 101001010101 !important;
+}
