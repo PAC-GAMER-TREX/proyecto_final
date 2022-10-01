@@ -170,7 +170,7 @@ const RenderProducts = (ResultProducts) => {
                         Color="${Product.Color}"
                         Price="${Product.Price}"
 
-                        type="button" class="BtnAddProduct btn btn-primary me-1 mb-1">
+                        type="button" class="BtnAddProduct btn btn-danger me-1 mb-1">
                         Añadir a la compra
                     </button>
                 </div>
@@ -206,7 +206,7 @@ const AddCart = (e) => {
     };
 
     AddObject("cart", CartInfoNew);
-    ShowMessage("Libro agregado a la compra", "success");
+    ShowMessage("Libro agregado a la compra", "light");
     GetAllObject("cart", CounterCart);
   }
 };
